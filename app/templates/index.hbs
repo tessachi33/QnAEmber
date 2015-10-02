@@ -1,3 +1,8 @@
 {{outlet}}
 {{#link-to 'contact'}}Contact{{/link-to}}
 <h1> Henna question and answer page </h1>
+<ul>
+  {{#each model as |questions|}}
+     <li><strong>{{questions.question}}</strong><br>{{questions.answer}}<br><br></li>
+  {{/each}}
+</ul>
