@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'qn-aember',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://crackling-heat-1879.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
